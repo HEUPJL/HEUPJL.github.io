@@ -2801,7 +2801,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("09/15/2023 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -2816,8 +2816,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://picbed.kemxe.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://picbed.kemxe.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+      ? `<img class='boardsign' src='https://picbed.kemxe.com/badge/K小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+      : `<img class='boardsign' src='https://picbed.kemxe.com/badge/K小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
@@ -3186,10 +3186,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://picbed.kemxe.com/img/dm14.webp);
-    --darkmode-bg:url(https://picbed.kemxe.com/img/yuanshen1.webp);
-    --mobileday-bg: url(https://picbed.kemxe.com/img/snow.webp);
-    --mobilenight-bg: url(https://picbed.kemxe.com/img/mb8.webp);
+    --default-bg: url(https://gitee.com/HEUPJL/picturebed/raw/master/img/dm14.webp);
+    --darkmode-bg:url(https://gitee.com/HEUPJL/picturebed/raw/master/img/yuanshen1.webp);
+    --mobileday-bg: url(https://gitee.com/HEUPJL/picturebed/raw/master/img/snow.webp);
+    --mobilenight-bg: url(https://gitee.com/HEUPJL/picturebed/raw/master/img/mb8.webp);
   }`;
 }
 // 切换背景主函数
@@ -3420,7 +3420,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://picbed.kemxe.com/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://picbed.kemxe.com/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://gitee.com/HEUPJL/picturebed/raw/master/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://gitee.com/HEUPJL/picturebed/raw/master/img/home_bg.webp)')"></a></div>
               </div>
             </details>
 
@@ -3429,7 +3429,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://picbed.kemxe.com/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://picbed.kemxe.com/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://gitee.com/HEUPJL/picturebed/raw/master/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://gitee.com/HEUPJL/picturebed/raw/master/img/fj1.webp)')"></a></div>
               </div>
             </details>
 
@@ -3437,7 +3437,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://picbed.kemxe.com/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://picbed.kemxe.com/img/mc1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://gitee.com/HEUPJL/picturebed/raw/master/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://gitee.com/HEUPJL/picturebed/raw/master/img/mc1.webp)')"></a></div>
               </div>
             </details>
 
@@ -3461,7 +3461,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://picbed.kemxe.com/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://picbed.kemxe.com/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://gitee.com/HEUPJL/picturebed/raw/master/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://gitee.com/HEUPJL/picturebed/raw/master/img/mb4.webp)')"></a></div>
               </div>
             </details>
 
@@ -3477,7 +3477,7 @@ function createWinbox() {
 <h3>8. 自定义背景</h3>
 <details class="folding-tag" cyan><summary> 设置自定义背景 </summary>
               <div class='content'>
-              <p><center><input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://picbed.kemxe.com/img/home_bg.webp"></center></p><p><center><button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button></center></p>
+              <p><center><input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://gitee.com/HEUPJL/picturebed/raw/master/img/home_bg.webp"></center></p><p><center><button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button></center></p>
               </div>
             </details>
 

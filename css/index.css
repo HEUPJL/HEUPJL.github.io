@@ -6582,43 +6582,43 @@ blockquote.pullquote.right {
 /* 字体引入 */
 @font-face {
   font-family: YSHST;
-  src: url(https://picbed.kemxe.com/fonts/优设好身体.woff2);
+  src: url(https://gitee.com/HEUPJL/picturebed/raw/master/fonts/优设好身体.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: MiSans;
-  src: url(https://picbed.kemxe.com/fonts/MiSans.woff2);
+  src: url(https://gitee.com/HEUPJL/picturebed/raw/master/fonts/MiSans.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: HYTMR;
-  src: url(https://picbed.kemxe.com/fonts/HYTangMeiRen55W.woff2);
+  src: url(https://gitee.com/HEUPJL/picturebed/raw/master/fonts/HYTangMeiRen55W.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: LXGW;
-  src: url(https://picbed.kemxe.com/fonts/霞鹜文楷.woff2);
+  src: url(https://gitee.com/HEUPJL/picturebed/raw/master/fonts/霞鹜文楷.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: TTQHB;
-  src: url(https://picbed.kemxe.com/fonts/甜甜圈海报字体.woff2);
+  src: url(https://gitee.com/HEUPJL/picturebed/raw/master/fonts/甜甜圈海报字体.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: Consolas_1;
-  src: url(https://picbed.kemxe.com/fonts/Consolas.woff2);
+  src: url(https://gitee.com/HEUPJL/picturebed/raw/master/fonts/Consolas.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: ZhuZiAWan;
-  src: url(https://picbed.kemxe.com/fonts/ZhuZiAWan2.woff2);
+  src: url(https://gitee.com/HEUPJL/picturebed/raw/master/fonts/ZhuZiAWan2.woff2);
   font-display: swap;
 }
 
@@ -7773,7 +7773,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://picbed.kemxe.com/img/tou1.webp)
+  background: url(https://gitee.com/HEUPJL/picturebed/raw/master/img/tou1.webp)
     no-repeat center center;
   background-size: cover;
 }
