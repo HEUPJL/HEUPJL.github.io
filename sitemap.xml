@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.kemxe.com/posts/a03a840d.html</loc>
+    <loc>https://www.kemxe.com/posts/b71814c4.html</loc>
     
     <lastmod>2023-09-12</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.kemxe.com/posts/b71814c4.html</loc>
+    <loc>https://www.kemxe.com/posts/a03a840d.html</loc>
     
     <lastmod>2023-09-12</lastmod>
     
@@ -191,15 +191,6 @@
   </url>
   
   <url>
-    <loc>https://www.kemxe.com/posts/9ed76dd3.html</loc>
-    
-    <lastmod>2023-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.kemxe.com/posts/93c91d94.html</loc>
     
     <lastmod>2023-09-12</lastmod>
@@ -218,25 +209,16 @@
   </url>
   
   <url>
+    <loc>https://www.kemxe.com/posts/9ed76dd3.html</loc>
+    
+    <lastmod>2023-09-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kemxe.com/posts/5914bba4.html</loc>
-    
-    <lastmod>2023-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kemxe.com/posts/fe944fc8.html</loc>
-    
-    <lastmod>2023-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kemxe.com/posts/71756fc8.html</loc>
     
     <lastmod>2023-09-12</lastmod>
     
@@ -254,7 +236,25 @@
   </url>
   
   <url>
+    <loc>https://www.kemxe.com/posts/71756fc8.html</loc>
+    
+    <lastmod>2023-09-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kemxe.com/posts/7ba7061.html</loc>
+    
+    <lastmod>2023-09-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kemxe.com/posts/fe944fc8.html</loc>
     
     <lastmod>2023-09-12</lastmod>
     
@@ -283,7 +283,7 @@
 
   <url>
     <loc>https://www.kemxe.com/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -291,28 +291,28 @@
   
   <url>
     <loc>https://www.kemxe.com/tags/Markdown/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.kemxe.com/tags/HEXO/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.kemxe.com/tags/butterfly/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.kemxe.com/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -321,42 +321,42 @@
   
   <url>
     <loc>https://www.kemxe.com/categories/%E7%AC%94%E8%AE%B0%E4%B8%80/</loc>
-    <lastmod>2023-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kemxe.com/categories/%E7%AC%94%E8%AE%B0%E5%85%AD/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.kemxe.com/categories/%E7%AC%94%E8%AE%B0%E4%B8%89/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kemxe.com/categories/%E7%AC%94%E8%AE%B0%E5%85%AD/</loc>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.kemxe.com/categories/%E7%AC%94%E8%AE%B0%E4%BA%8C/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.kemxe.com/categories/%E7%AC%94%E8%AE%B0%E5%9B%9B/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.kemxe.com/categories/%E7%AC%94%E8%AE%B0%E4%BA%94/</loc>
-    <lastmod>2023-10-04</lastmod>
+    <lastmod>2023-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
